@@ -1,3 +1,6 @@
+const storageAccountName = "eventphotosstorage";
+const containerName = "event-photos";
+
 async function uploadFile() {
     const fileInput = document.getElementById("fileInput");
     if (!fileInput.files.length) {
